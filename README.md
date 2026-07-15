@@ -1,5 +1,5 @@
 Name: Daniyal Arqam Talha
-Dataset: Airbnb Listings (real dataset — replace with your source, e.g. Inside Airbnb / Kaggle "Airbnb Listings [City]")
+Dataset: Airbnb Listings
 Week 1 Repo: https://github.com/daniyal-arqam/week1-ds-assignment
 
 Key Findings
