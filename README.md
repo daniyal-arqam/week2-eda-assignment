@@ -4,7 +4,7 @@ Week 1 Repo: https://github.com/daniyal-arqam/week1-ds-assignment
 
 Key Findings
 
-Missingness in review_scores and last_review is MAR — both are explained almost entirely by reviews_count == 0 (new listings with no bookings yet), not by random chance.
+Missingness in review_scores and last_review is MAR both are explained almost entirely by reviews_count == 0 (new listings with no bookings yet), not by random chance.
 price is heavily right-skewed (skew ≈ 10), so the IQR method outperforms z-score for outlier detection on this column z-score under-flags outliers because the mean/std it relies on are themselves skewed by the extreme values.
 Outlier handling on price required three different decisions on the same column: large 4+ bedroom listings were kept and flagged as legitimate luxury units, $0 listings were corrected as data-entry errors and re-imputed, and implausible spikes on small listings were treated as likely typos and capped.
 
